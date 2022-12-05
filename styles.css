@@ -1,0 +1,40 @@
+* {
+    background-color: #FFFBDE;
+    text-align: center;
+    
+}
+
+#FontMenu {
+    color: #D6CD5D;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 5px 5px 5px #D6CD5D;
+}
+
+.wrapper {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+#menu {
+    display: block;
+}
+
+#menu ul {
+    text-transform: uppercase;
+    /*margin: 10px 350px;*/
+}
+
+#menu li {
+    list-style: none; /*Tira as bolinhas que são caracteristicas das linstas não ordenadas*/
+    display: inline-block;
+    margin-right: 200px; /*Espaço que separa as duas palavras do cabeçalho*/
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
