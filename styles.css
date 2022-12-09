@@ -1,5 +1,5 @@
 * {
-    background-color: #FFFBDE;
+    background-color: #000000;
     text-align: center;
     
 }
@@ -8,7 +8,7 @@
     color: #D6CD5D;
     font-family: 'Roboto', sans-serif;
     font-family: 'Titillium Web', sans-serif;
-    text-shadow: 5px 5px 5px #D6CD5D;
+    /*text-shadow: 5px 5px 5px #D6CD5D;*/
 }
 
 .wrapper {
@@ -16,6 +16,10 @@
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
+}
+
+figure {
+    width: 100%;
 }
 
 #menu {
@@ -37,4 +41,5 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
+    color: #D6CD5D;
 }
