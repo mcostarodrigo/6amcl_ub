@@ -1,45 +1,35 @@
 * {
-    background-color: #000000;
+    background-color: #161616;
     text-align: center;
-    
-}
-
-#FontMenu {
-    color: #D6CD5D;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-family: 'Titillium Web', sans-serif;
-    /*text-shadow: 5px 5px 5px #D6CD5D;*/
-}
-
-.wrapper {
-    display: block;
-    height: 100vh;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-figure {
-    width: 100%;
+    color: #D6CD5D;
 }
 
 #menu {
-    display: block;
+    position: relative; /* Deixou o menu sozinho na parte superior do site*/
+    top:10px;
 }
 
-#menu ul {
+nav#menu ul {
     text-transform: uppercase;
-    /*margin: 10px 350px;*/
 }
 
-#menu li {
+nav#menu li {
     list-style: none; /*Tira as bolinhas que são caracteristicas das linstas não ordenadas*/
     display: inline-block;
-    margin-right: 200px; /*Espaço que separa as duas palavras do cabeçalho*/
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
-    text-align: center;
-    color: #D6CD5D;
+nav#menu a { 
+    text-decoration: none; /* tirou os riscos em baixo das palavras do menu superior*/
+    margin-left: 300px;
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+#insta {
+    text-decoration: none;
 }
