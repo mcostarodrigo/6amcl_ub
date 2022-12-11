@@ -9,6 +9,10 @@
     color: #D6CD5D;
 }
 
+body {
+    height: 200%;
+}
+
 #menu {
     position: relative; /* Deixou o menu sozinho na parte superior do site*/
     top:10px;
@@ -44,8 +48,8 @@ section p {
     margin-left: 10%;
 }
 
-section img {
-    position: absolute;
+section figure {
+    background: url(./unnamed.png);
 }
 
 @media screen and (max-width: 800px) {
