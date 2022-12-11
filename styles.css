@@ -44,6 +44,10 @@ section p {
     margin-left: 10%;
 }
 
+section img {
+    position: absolute;
+}
+
 @media screen and (max-width: 800px) {
     figure {
         width: 100%;
