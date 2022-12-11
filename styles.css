@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 200%;
+    height: 200vh; /*Aumentei o tamanho da tela*/
 }
 
 #menu {
@@ -48,7 +48,11 @@ section p {
     margin-left: 10%;
 }
 
-section figure {
+#insta {
+    width: 300px;
+}
+
+#insta {
     background: url(./unnamed.png);
 }
 
