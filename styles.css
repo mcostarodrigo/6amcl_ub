@@ -33,3 +33,17 @@ nav#menu a {
 #insta {
     text-decoration: none;
 }
+
+figure img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    figure {
+        width: 100%;
+    }
+
+    nav#menu {
+        display: none;
+    }
+}
